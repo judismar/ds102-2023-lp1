@@ -1,7 +1,7 @@
 from random import randint
 
 print("--- Cara, Coroa ou Zai ---")
-x = input("Escolha Cara, Coroa: ")
+x = input("Escolha Cara, Coroa ou Zai: ")
 estiverErrado = True
 while estiverErrado:
     if not (x == "Cara" or x == "Coroa" or x == "Zai"):
