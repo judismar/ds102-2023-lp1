@@ -13,7 +13,7 @@ if y == 0:
     y = "Cara"
 else:
     if y == 1:
-            y = "Coroa"
+        y = "Coroa"
     else:
         if y == 2:
             y = "Zai"
