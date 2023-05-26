@@ -1,3 +1,4 @@
+#Pessoal, logo estarei comentando cada linha de código, ok?
 from random import randint
 
 turma = ['Artur', 'Ana', 'Asafe', 'Zai', 'Mika', 'Hy', "João", "Karol", 'Leslie', 'Luís', 'Luiz', 'Moisés', 'Pablo', 'Pedro D.', 'PH', 'Paixão', 'Ramon', 'Tomás', 'Victor de Medeiros','Victor Lucas', 'Victória', 'Vitória', 'Wallace', 'Beatriz', 'Erick']
