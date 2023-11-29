@@ -4,21 +4,25 @@ def salva(nomeArquivo, valor): #modo w
     arq.close()
 
 def carrega(nomeArquivo): #modo r
-    arq = open(nomeArquivo, 'r')
-    valor = arq.read()
-    arq.close()
-    return valor
+    try:
+        arq = open(nomeArquivo, 'r')
+        valor = arq.read()
+        arq.close()
+        return valor
+    except FileNotFoundError:
+        print("Arquivo", nomeArquivo, "inexistente.")
+        return 0
 
 def carregaLinhaALinha(nomeArquivo):
     lista = []
-    arq = open(nomeArquivo, 'r')
-    while True:
-        linha = arq.readline()
-        if linha == "":
-            break
-        lista.append(linha)
-    arq.close()
-    return lista
-
-def listaVazia(lista):
-    return len(lista) == 0
+    try:
+        arq = open(nomeArquivo, 'r')
+        while True:
+            linha = arq.readline()
+            if linha == "":
+                break
+            lista.append(linha)
+        arq.close()
+        return lista
+    except FileNotFoundError:
+        print("Arquivo", nomeArquivo, "inexistente.")
