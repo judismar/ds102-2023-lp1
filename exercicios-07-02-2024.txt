@@ -1,0 +1,25 @@
+1) O que o programa a seguir imprime na tela?
+
+variavel = 0
+while variavel < 5:
+	print(variavel)
+	variavel += 1
+	
+2) O programa a seguir deve imprimir o conteúdo da lista de inteiros. Preencha as lacunas.
+nums __ [2, 3, 5, 7, 11]
+for numero in __:
+  print(____)
+
+3) Escreva um programa equivalente ao anterior, usando while no lugar de for. O que 'while' e 'for' tem de comum?
+
+4) O program a seguir deve inserir 10 números aleatórios na lista 'l'. Preencha as lacunas.
+____ random ____ randint
+l = ___
+k = 0
+while k < 10:
+  __ += randint(1, 100)
+  k __ 1
+
+5) Reescreva o programa acima usando 'for'. As primeiras linhas se seguem:
+l = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+for k in l:
