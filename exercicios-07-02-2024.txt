@@ -22,4 +22,15 @@ while k < 10:
 
 5) Reescreva o programa acima usando 'for'. As primeiras linhas se seguem:
 l = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-for k in l:
+for k in l: #para k igual a 0, 1, 2, ..., 9
+
+6) O seguinte programa lê algo do teclado e escreve em arquivos na formatação .hyt (Hythalo), se o que foi digitado tem no máximo 20 caracteres. Caso contrário, guarda todo o conteúdo digitado em um arquivo de formato .txt .
+x = _____("Informe o conteúdo do arquivo: ")
+__ len(x) <= 20:
+  y __ open("___.hyt", __)
+else:
+  y = _____________
+y.____(x)
+__close()
+
+7) Escreva um programa que leia arquivos de formato Hythalo e imprime na tela.
